@@ -23,11 +23,11 @@
             </div>
             <div class=" bg-green-400 p-8 rounded-lg text-white ">
                 <h4 class="text-2xl text-white " >Withdraw Totall</h4>
-                <h1 class="text-4xl font-medium " > $ <span id="deposite-totall" >00</span></h1>
+                <h1 class="text-4xl font-medium " > $ <span id="withdraw-totall" >00</span></h1>
             </div>
             <div class=" bg-red-400 p-8 rounded-lg text-white ">
                 <h4 class="text-2xl text-white " >Balance Totall</h4>
-                <h1 class="text-4xl font-medium " > $ <span id="deposite-totall" >1200</span></h1>
+                <h1 class="text-4xl font-medium " > $ <span id="balance-totall" >1200</span></h1>
             </div>
            
             
@@ -40,12 +40,12 @@
         <div class="grid grid-cols-2 gap-4" >
             <div class="bg-violet-400 p-8 rounded-lg">
                 <h3 class="text-3xl text-white mb-4">Your Deposit</h3>
-                <input class="w-3/4 px-2 py-2 rounded-lg block " type="text" name="" id="" placeholder="Enter your deposit amount">
+                <input class="w-3/4 px-2 py-2 rounded-lg block " type="text" name="" id="depo-field" placeholder="Enter your deposit amount">
                 <button id="btn-deposit" class=" bg-pink-400 px-6 py-2 text-white mt-4 rounded-lg hover:bg-red-500 " >Deposit</button>
             </div>
-            <div class="bg-violet-400 p-8 rounded-lg">
+            <div class="bg-green-400 p-8 rounded-lg">
                 <h3 class="text-3xl text-white mb-4">Your Withdraw</h3>
-                <input class="w-3/4 px-2 py-2 rounded-lg block " type="text" name="" id="" placeholder="Enter your deposit amount">
+                <input class="w-3/4 px-2 py-2 rounded-lg block " type="text" name="" id="withdraw-field" placeholder="Enter your deposit amount">
                 <button id="btn-withdraw" class="  bg-pink-400 px-6 py-2 text-white mt-4 rounded-lg hover:bg-red-500 " >Withdraw</button>
             </div>
 
@@ -54,4 +54,6 @@
     </section>
 </main>
 </body>
+<script src="scripts/withdraw.js"></script>
+<script src="scripts/deposit.js"></script>
 </html>
